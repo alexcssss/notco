@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotCo - Recetas</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/main.css">
+
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+    <script src="/anime.min.js"></script>
+    
+</head>
+<body class="hide-overflow">
+
+    <div class="landing-page">
+        <h1 class="landing-main-header">ENTONCES...</h1>
+        <h4>¿TE INTERESA HACER ALGO POR EL PLANETA?</h4>
+
+        <button type="button" class="why-not" onclick="handleWhyNotBtn()"> 
+            WHY NOT?
+        </button>
+
+        <div class="notco-logo-below">
+            <img src="img/logo.png" alt="NotCo logo">
+        </div>
+    </div>
+
+    <div class="interested-menu hide-section">
+        <h1 class="interested-header">
+            ME
+            <span>INTERESA...</span>
+        </h1>
+
+        <div class="menu-options">
+            <div class="menu-option" onclick="handleMenuOption()">
+                CONOCER RECETAS VEGANAS Y VEGETARIANAS 
+            </div>
+            <div class="menu-option" onclick="handleMenuOption()">
+                HACER COMIDA RAPIDA Y SALUDABLE 
+            </div>
+            <div class="menu-option" onclick="handleMenuOption()">
+                PREPARAR RECETAS VEGANAS Y VEGETARIANAS 
+            </div>
+        </div>
+        
+        <img src="img/x-icon.png" alt="X NotCo" class="x-notco-img">
+        <div class="notco-logo-below">
+            <img src="img/logo.png" alt="NotCo logo">
+        </div>
+    </div>
+
+    <div class="notco-recipe hide-section">
+        <!-- Absolute Logos -->
+        <img src="img/notco-logo-and-x.png" alt="notco-logo-and-x" class="notco-logo-and-x">
+
+        <img src="img/why-notco.png" alt="why-notco-stample" class="why-notco-stample">
+        <!-- Absolute Logos -->
+        <div class="notco-recipe-layout">
+            <div class="ingredients-column">
+                <div class="recipe-showcase">
+                    <div class="recipe-background"></div>
+                    <img src="img/in-plants-we-trust.png" alt="in-plants-we-trust-stample" class="in-plants-stample">
+
+                    <img class="recipe" src="img/recipe.png" alt="Recipe Showcase">
+                </div>
+    
+                <div class="ingredients">
+                    <div class="ingredients-header">
+                        INGREDIENTES
+                    </div>
+                    <div class="line"></div>
+                    <div class="ingredients-list">
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            3 berenjenas
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            2 zanahorias
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            5 tomates
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            1 taza de NotCream 
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            Sal y pimienta a gusto
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            200g de NotMeat 
+                        </div>
+                        <div class="ingredient">
+                            <img src="img/ingredient-list-x.png" alt="List Item">
+                            50g de NotCheese
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="step-by-step-recipe">
+                <div class="recipe-header">
+                    <span>ESTOFADO</span>
+                    <span>DE BERENJENA </span>   
+                    <span>CON <span class="notcream-header">NOTCREAM</span></span>
+                </div>
+                <div class="recipe-details">
+                    <div class="recipe-time">
+                        TIEMPO
+                        <span class="time">
+                            30 MIN
+                        </span>
+                    </div>
+                    <div class="recipe-difficulty">
+                        DIFICULTAD
+                        <span class="recipe-stars">
+                            <img src="img/star-filled.png" alt="star filled">
+                            <img src="img/star-filled.png" alt="star filled">
+                            <img src="img/star-empty.png" alt="star filled">
+                            <img src="img/star-empty.png" alt="star filled">
+                            <img src="img/star-empty.png" alt="star filled">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <div class="step-by-step-header">
+                        PASO A PASO 
+                    </div>
+                    <div class="line"></div>
+                    <div class="step-by-step-list">
+                        <div class="step">
+                            <div class="number">
+                                1
+                            </div>
+                            Lava y pela muy bien las verduras. Cocínalas hasta que estén cocidas.
+                        </div>
+                        <div class="step">
+                            <div class="number">
+                                2
+                            </div>
+                            Corta las papas, zanahoria y betarraga en cubitos.
+
+                        </div>
+                        <div class="step">
+                            <div class="number">
+                                3
+                            </div>
+                            Alíñalas con el jugo de limón, NotMayo, sal, pimienta y cilantro. Puedes ponerle cuanto quieras y encuentres necesario.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nutritional-guide">
+                    <div class="nutritional-guide-header">
+                        GUÍA NUTRICIONAL (POR PORCIÓN)
+                    </div>
+                    <ul>
+                        <li>708 <span>calorias</span></li>
+                        <li>49g <span>carbohidratos</span></li>
+                        <li>23g <span>proteinas</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="notco-products ">
+
+            <img src="img/why-not-purple.png" alt="why-not-purple" class="why-not-purple-stample">
+            <img src="img/in-plants-we-trust-rainbow.png" alt="in-plants-we-trust-rainbow" class="in-plants-we-trust-rainbow-stample">
+
+
+            <div class="notco-products-header">
+                PRODUCTOS NOTCO UTILIZADOS
+            </div>
+            <div class="products-slider">
+                <div class="product">
+                    <div class="title">NOTCREAM</div>
+                    <div class="image">
+                        <img src="img/notcream.png" alt="NotCream product">
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            -
+                        </button>
+                        <input type="text" class="quanity-input" value="1"/>
+                        <button class="plus">
+                            +
+                        </button>
+                    </div>
+                    <button class="add-to-cart" onclick="openDrawer()">
+                        AÑADIR AL CARRITO
+                    </button>
+                </div>
+    
+                
+    
+                <div class="product">
+                    <div class="title">NOTMEAT</div>
+                    <div class="image">
+                        <img src="img/notmeat.png" alt="NotMeat product">
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            -
+                        </button>
+                        <input type="text" class="quanity-input" value="1"/>
+                        <button class="plus">
+                            +
+                        </button>
+                    </div>
+                    <button class="add-to-cart" onclick="openDrawer()">
+                        AÑADIR AL CARRITO
+                    </button>
+                </div>
+    
+                <div class="product">
+                    <div class="title">NOTCHEESE</div>
+                    <div class="image">
+                        <img src="img/notcheese.png" alt="NotCheese product">
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            -
+                        </button>
+                        <input type="text" class="quanity-input" value="1"/>
+                        <button class="plus">
+                            +
+                        </button>
+                    </div>
+                    <button class="add-to-cart" onclick="openDrawer()">
+                        AÑADIR AL CARRITO
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <div class="cart-modal" onclick="closeDrawer()"></div>
+
+        <div class="drawer">
+            <div class="header">
+                CARRITO DE COMPRAS
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="img">
+                        <img src="img/notcream.png" alt="NotCream product">
+                    </div>
+                    <div class="info">
+                        <div class="product-title">
+                            NotCream
+                        </div>
+                        <div class="product-price">
+                            $18.250,00
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">
+                                -
+                            </button>
+                            <input type="text" class="quanity-input" value="2"/>
+                            <button class="plus">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="img/notmeat.png" alt="NotMeat product">
+                    </div>
+                    <div class="info">
+                        <div class="product-title">
+                            NotMeat
+                        </div>
+                        <div class="product-price">
+                            $10.950,00
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">
+                                -
+                            </button>
+                            <input type="text" class="quanity-input" value="4"/>
+                            <button class="plus">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="img/notcheese.png" alt="NotCheese product">
+                    </div>
+                    <div class="info">
+                        <div class="product-title">
+                            NotCheese
+                        </div>
+                        <div class="product-price">
+                            $18.250,00
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">
+                                -
+                            </button>
+                            <input type="text" class="quanity-input" value="3"/>
+                            <button class="plus">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="subtotal">
+                    <span class="subtotal-text">SUBTOTAL: </span>
+                    <span class="subtotal-price">$45.750,00
+                    </span>
+                </div>
+                <button class="keep-buying">
+                    SEGUIR COMPRANDO
+                </button>
+                <button class="checkout">
+                    IR A PAGAR
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="global.js"></script>
+</body>
+</html>
