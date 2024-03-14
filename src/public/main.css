@@ -328,6 +328,26 @@ img.recipe {
   justify-content: space-between;
   align-items: center;
   padding: 2rem .5rem;
+  background-size: 100% 200%;
+  background-position: 0 -200%;
+  background-image: linear-gradient(to top, #00B4FF 50%, white  50%);
+  transition: background-position 1s;
+}
+
+.product.not-cream-prod {
+  background-image: linear-gradient(to top, #00B4FF 50%, white  50%);
+}
+
+.product.not-meat-prod {
+  background-image: linear-gradient(to top, #FF4614 50%, white  50%);
+}
+
+.product.not-cheese-prod {
+  background-image: linear-gradient(to top, #FFCD00 50%, white  50%);
+}
+
+.product:hover {
+  background-position: 0 -130%;
 }
 
 .product .title {
@@ -355,6 +375,7 @@ img.recipe {
 }
 
 .product .quantity input {
+  background: transparent;
   outline: none;
     border: none;
     width: 80%;
