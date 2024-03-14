@@ -263,6 +263,7 @@ img.recipe {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  font-weight: normal;
 }
 
 .step-by-step-list .step .number {
